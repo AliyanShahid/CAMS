@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Admission Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button onclick="openRegistrationForm()">Register</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="image-container">
+                <img src="images/college_image_main.jpg" alt="College Image" class="college-image">
+            </div>
+            <div class="college-info">
+                <h2>Welcome to our College</h2>
+                <p>At our college, we believe in the power of education to transform lives and shape futures. With a commitment to excellence and innovation, we foster an environment where students are encouraged to dream big and pursue their passions.</p>
+                <p>Together, let's create a brighter future, one filled with endless possibilities and boundless success</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-container">
+        <a href="admissions.html" class="card card-admissions">
+            <h3>Admissions</h3>
+            <p>Learn about our admissions process and requirements.</p>
+        </a>
+        <a href="courses.html" class="card card-courses">
+            <h3>Courses</h3>
+            <p>Explore the wide range of courses we offer.</p>
+        </a>
+        <a href="events.html" class="card card-events">
+            <h3>Events</h3>
+            <p>Stay updated with upcoming events and activities.</p>
+        </a>
+        <a href="merit-list.html" class="card card-merit-list">
+            <h3>Merit List</h3>
+            <p>Check the latest merit list for admissions.</p>
+        </a>
+    </div>
+    <footer>
+        <p>Contact us: example@example.com | Follow us on Twitter: @example</p>
+        <p>&copy; 2024 College Admission Management System. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openRegistrationForm() {
+            window.location.href = "registration.html";
+        }
+    </script>
+</body>
+</html>
